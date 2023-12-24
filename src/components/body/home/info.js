@@ -3,9 +3,12 @@ import { Tooltip as ReactTooltip } from "react-tooltip";
 const Info = () => {
   return (
     <>
-      <div data-tooltip-id="what-tooltip" className="w-fit">
+      <h1
+        data-tooltip-id="what-tooltip"
+        className="xl:text-6xl text-4xl font-extrabold mt-2 mb-8 w-fit"
+      >
         What is Stemsage?
-      </div>
+      </h1>
       <ReactTooltip
         id="what-tooltip"
         place="bottom"

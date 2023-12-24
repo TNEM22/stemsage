@@ -19,6 +19,12 @@ const Workshops = () => {
         content="!! Find small easter eggs by hovering over the texts.. !!"
         style={{ zIndex: 99 }}
       />
+      <ReactTooltip
+        id="easter-tooltip"
+        place="top"
+        content="!! After the major update of the website the easter eggs will be removed !!"
+        style={{ zIndex: 99 }}
+      />
     </>
   );
 };
